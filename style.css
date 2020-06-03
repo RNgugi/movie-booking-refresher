@@ -2,18 +2,20 @@
 
 *{
     box-sizing: border-box;
-    display: flexbox;
-    
 }
-
 .outerbox{
     background-color: rgba(0, 0, 0, 0.5);
+    height: 80px;
+    width: 200px;
+    margin-top: 50;
 }
 
 body{
-    background-color: #242333;
-    background-image: url(lionking.jpg);
+    background-image: url(joker2.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+
     background-size: cover;
+    background-position-x: left;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -23,6 +25,7 @@ body{
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
+
 
 .movie-container{
     margin: 20px 0;
