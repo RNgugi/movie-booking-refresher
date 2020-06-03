@@ -24,6 +24,7 @@ body{
     height: 100vh;
     font-family: 'Lato', sans-serif;
     margin: 0;
+    margin-top: 60px;
 }
 
 
@@ -126,7 +127,7 @@ p.text span{
 }
 
 header{
-    background-color: white;
+    background-color: rgb(39, 38, 38);
     position: fixed;
     top: 0;
     left: 0;
@@ -148,6 +149,6 @@ header li{
 }
 
 header li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
