@@ -2,10 +2,18 @@
 
 *{
     box-sizing: border-box;
+    display: flexbox;
+    
+}
+
+.outerbox{
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 body{
     background-color: #242333;
+    background-image: url(lionking.jpg);
+    background-size: cover;
     color: #ffffff;
     display: flex;
     flex-direction: column;
